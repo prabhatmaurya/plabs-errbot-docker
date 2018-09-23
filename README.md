@@ -2,7 +2,7 @@
 
 ### Introduction
 Dockerfile to build an [Errbot](http://errbot.io).
-
+This example is only for errbot with slack backend, Please replace your own config.py for other supported backends.
 
 Configuration
 ~~~~~~~~~~~~~

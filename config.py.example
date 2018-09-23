@@ -1,0 +1,20 @@
+## Example for SLACK backend
+import logging
+BACKEND = 'Slack'  # defaults to XMPP
+BOT_DATA_DIR = '/srv/data'
+BOT_EXTRA_PLUGIN_DIR = '/srv/plugins'
+PLUGINS_CALLBACK_ORDER = (None, )
+BOT_LOG_FILE = BOT_DATA_DIR + '/err.log'
+BOT_LOG_LEVEL = logging.INFO
+BOT_LOG_SENTRY = False
+SENTRY_DSN = ''
+SENTRY_LOGLEVEL = BOT_LOG_LEVEL
+BOT_IDENTITY = {
+    'token': 'xoxb-2151884214-',
+}
+BOT_ADMINS = ('@prabhat.maurya')
+BOT_ALT_PREFIXES = ('@errbot')
+DIVERT_TO_PRIVATE = ()
+DIVERT_TO_THREAD = ()
+CHATROOM_RELAY = {}
+REVERSE_CHATROOM_RELAY = {}
