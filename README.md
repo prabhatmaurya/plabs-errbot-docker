@@ -14,4 +14,5 @@ Configuration
     $ cp config.py.example config.py
     $ vi config.py
     $ docker-compose up --build
+    
 ~~~~~~~~~~~~~
