@@ -1,2 +1,4 @@
+mock
+pytest
 errbot
-slackclient
+errbot[slack]
